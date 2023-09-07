@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+  create_time：2023-09-06 星期三 15:56:29
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>冷弋白的网页</title>
+    <script src="./spark-md5.js"></script>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: red;
+        animation: move 3s linear infinite alternate;
+      }
+
+      @keyframes move {
+        0% {
+          transform: translateX(0px);
+        }
+        100% {
+          transform: translateX(500px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <input type="file" />
+    <!-- <div class="box"></div> -->
+
+    <!-- JS -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
